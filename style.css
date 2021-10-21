@@ -1,0 +1,587 @@
+:root{
+  /*---Farver---*/
+  --blue: #1330e2;
+  --beige: #f5efe9;
+}
+
+
+@media only screen and (240px;)
+ *
+ {}
+
+     /*---burgermenu---*/
+
+    .menu {
+            width: 25px;
+            height: 3px;
+            background-color:black;
+            margin: 5px;
+        }
+
+
+    #navigation-icon {
+            float: right;
+            padding-right: 2%;
+            padding-top: 7%;
+        }
+
+        #navigation-mobile li {
+            display: list-item;
+            padding: 0.6em;
+            border-bottom: 0.1em solid #ccc;
+            border-top: 0.1em solid #ccc;
+
+        }
+
+        #navigation-mobile {
+            text-align: center;
+            font-size: 1.1em;
+            background-color: black;
+            
+
+        }
+
+        #navigation-desktop {
+            display: none;
+
+
+        }
+
+   #navigation-mobile {
+       font-family: 'Roboto', sans-serif;
+       font-size: 1.0em
+   }
+
+   .header-billede {
+     width: 110%;
+     height:auto;
+     margin-top: -250px;
+     margin-left: -8px;
+
+   }
+
+#logo {
+display: none;
+}
+
+
+h1{
+  text-align: center;
+  font-size: 13px;
+  font-family: Scheherazade New, serif;
+  color: white;
+  background-color: blue;
+  margin: -8px;
+  margin-top: -8px;
+  margin-bottom: -4px;
+
+}
+
+div.header:hover{
+  background-color: grey;
+}
+
+body{
+  background-color: #f5efe9;
+}
+
+.desc{
+  color: black;
+  font-size: 15px;
+  padding-top: 4%;
+}
+
+
+
+h2{
+  text-align: center;
+  font-size: 15px;
+  font-family: Julius Sans One, sans-serif;
+  color: black;
+}
+
+p{
+  text-align: center;
+  font-size: 12px;
+  font-family: Julius Sans One, sans-serif;
+  color: black;
+  padding-top: 20px;
+}
+
+.column {
+  width: 90%;
+  text-align: center;
+  font-size: 15px;
+  font-family: Julius Sans One, sans-serif;
+padding: 20px;
+align-items: center;
+}
+
+
+
+@media only screen and (min-width:480px)
+  {
+
+    /* Logo i venstre hjørne styles  */
+    #logo-showroom {
+    padding-top: 20px;
+     padding-left: 40px;
+     float: left;
+    }
+
+    #vector{
+      padding-top: 20px;
+       padding-left: 40px;
+       float: right;
+
+    }
+
+
+/* Menulinje styles */
+.menu{
+  background-color: white;
+  text-align: right;
+  width: 101%;
+  height: 80px;
+  margin-left: -10px;
+
+
+}
+
+.menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: inline-flex;
+  margin-top: 0px;
+  float: none;
+ position: absolute;
+ left: 50%;
+ transform: translate(-50%);
+
+
+}
+
+.menu ul li{
+  width: auto;
+  margin: 20px;
+  padding: 10px;
+  text-align: center;
+
+
+}
+
+.menu ul li a{
+  text-decoration: none;
+  text-align: center;
+  color: black;
+  font-family: Julius Sans One, sans-serif;
+  font-size: 18px;
+
+
+}
+
+.mode, .menu ul li:hover{
+  background-color: var(--beige);
+}
+
+
+/* dropdown menu styles  */
+.submenu1{
+  display: none;
+
+}
+
+.menu ul li:hover .submenu1{
+  display: block;
+  position: absolute;
+  color: black;
+  margin-top: 5px;
+  margin-left: -10px;
+
+}
+
+.menu ul li:hover .submenu1 ul{
+  display: block;
+  margin: 10px;
+  background-color: white;
+}
+
+.menu ul li:hover .submenu1 ul li{
+  width: 150px;
+  padding: 10px;
+  border-bottom: 2px solid var(--white);
+  background: white;
+  text-align: left;
+}
+
+.menu ul li:hover .submenu1 ul li a:hover{
+  color: var(--grey);
+}
+
+
+/* Billeder under nyheder */
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+
+    /*---body tekst---*/
+
+    h2{
+      text-align: center;
+      font-size: 20px;
+      font-family: Julius Sans One, sans-serif;
+      color: black;
+    }
+
+    p{
+      text-align: center;
+      font-size: 15px;
+      font-family: Julius Sans One, sans-serif;
+      color: black;
+    }
+
+
+
+    .column {
+      float: left;
+      width: 25%;
+      margin-bottom: 50px;
+
+    }
+
+    div.gallery {
+      margin: 5px;
+      border: 1px solid #ccc;
+      float: left;
+      width: 180px;
+
+    }
+
+    div.column:hover {
+      border: 1px solid #777;
+    }
+
+    div.column img {
+      width: 100%;
+      height: auto;
+    }
+
+    div.column {
+  padding: 15px;
+  text-align: center;
+  font-family: Julius Sans One, sans-serif;
+  font-size: 20px;
+
+  }
+  .desc{
+    color: black;
+    font-size: 15px;
+    margin-bottom: 30px;
+  }
+}
+
+
+
+
+/*-------------------------------footer---------------------------------*/
+/*---footer email box---*/
+.footer-email-container{
+  height: 150px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+
+}
+
+.footer-email-form{
+text-align: center;
+font-size: 13px;
+font-family: Julius Sans One, sans-serif;
+padding-bottom: 20px;
+
+
+}
+
+#footer-email::placeholder{
+  color: beige;
+
+
+}
+
+#footer-email-btn{
+  width: 100px;
+  height: 23px;
+  background-color: blue;
+  font-family: Julius Sans One, sans-serif;
+  border: none;
+  color: white;
+  font-size: 12px;
+  margin-left: 3px;
+
+
+}
+
+#footer-email-btn:hover{
+  background-color: orange;
+}
+
+/*-------footer--------*/
+
+footer {
+  padding: 20px;
+  text-align: left;
+  color: white;
+  font-family: Julius Sans One, sans-serif;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  background-color: Blue;
+  margin-right: -10px;
+  margin-left: -8px;
+
+}
+
+.row1 {
+  display: flex;
+  width: 100%;
+
+}
+
+.column1 {
+  flex: 25%;
+  padding-top: 10px;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+.column1 p{
+  color: white;
+  text-decoration: underline;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+
+
+/* seperate */
+#seperate{
+  background-color: White;
+  margin-bottom: 20px;
+  margin-top: 40px;
+  height: 8px;
+
+}
+
+
+
+
+/*----------------------------------Trends--------------------------------*/
+
+#overskrift h2{
+  font-size: 60px;
+  font-family:Italiana, serif;
+}
+
+
+.trends h3{
+  font-size: 25px;
+  text-align: left;
+  font-family: Italiana, serif;
+    margin-left: 150px;
+    margin-top: 0px;
+    margin-bottom: 40px;
+
+}
+
+.trends h4{
+  font-size: 20px;
+  text-align: left;
+  font-family: Julius Sans One, sans-serif;
+  padding-bottom: 5px;
+    margin-left: 150px;
+    margin-top: -20px;
+}
+
+.trends p{
+  font-size: 18px;
+  text-align: left;
+  font-family: Roboto, sans-serif;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: -40px;
+
+}
+
+#genbrug {
+  height: 600px;
+  width: 800px;
+  margin-left: 150px;
+  margin-bottom: 30px;
+}
+
+
+
+#duset{
+  height: 600px;
+  width: 800px;
+  margin-left: 150px;
+  margin-bottom: 50px;
+
+}
+
+
+
+#keramik-img{
+  height: 600px;
+  width: 800px;
+  margin-left: 150px;
+  margin-bottom: 50px;
+
+}
+/*----------------------------------Fra yt til nyt--------------------------------*/
+
+#banner{
+  width: 100%;
+
+}
+
+.genbrug h3{
+  font-size: 25px;
+  font-family: Italiana, serif;
+  margin-bottom: -20px;
+  margin-left: 65px;
+  margin-right: 60px;
+}
+
+.genbrug h4{
+  font-size: 18px;
+  font-family: Julius Sans One, sans-serif;
+  margin-left: 65px;
+  margin-right: 60px;
+}
+
+.genbrug p{
+  font-size: 18px;
+  font-family: Roboto, sans-serif;
+  text-align: left;
+  margin-top: -30px;
+  margin-left: 65px;
+  margin-right: 60px;
+}
+
+
+
+#bar{
+  background-color: white;
+  margin-top: 0px;
+  margin-bottom: 3px;
+}
+
+#banner{
+  margin-top: -50px;
+}
+
+
+/*Fra yt til nyt Billeder*/
+
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.række {
+  margin: 8px -16px;
+  display:flex;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.række,
+.række > .kolonne {
+  padding: 8px;
+}
+
+/
+.kolonne {
+  float: left;
+  width: 33.33%;
+}
+
+.række:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.indhold {
+  background-color: white;
+  padding: 10px;
+  height: 590px;
+
+}
+
+.indhold img{
+
+
+}
+.indhold p{
+font-size: 18px;
+font-family: Roboto, sans-serif;
+text-align: left;
+margin-top: 5px;
+padding: 2px;
+margin-left: 10px;
+}
+
+
+/*----------------------------------Det billige alternativ--------------------------------*/
+
+
+.alternativ h3{
+  font-size: 25px;
+  font-family: Italiana, serif;
+  margin-bottom: -20px;
+  margin-left: 65px;
+  margin-right: 60px;
+}
+
+.alternativ h4{
+  font-size: 18px;
+  font-family: Julius Sans One, sans-serif;
+  margin-left: 65px;
+  margin-right: 60px;
+}
+
+.alternativ p{
+  font-size: 18px;
+  font-family: Roboto, sans-serif;
+  text-align: left;
+  margin-top: -30px;
+  margin-left: 65px;
+  margin-right: 60px;
+
+}
+
+.main-galleri img{
+  margin-left: 270px;
+  width: 60%;
+  height: 60%;
+  margin-bottom: 100px;
+  margin-top: 10px;
+
+}
+
+.main-galleri h5{
+  font-size: 18px;
+  font-family: Julius Sans One, sans-serif;
+  margin-left: 65px;
+  margin-right: 60px;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 80px;
+
+}
